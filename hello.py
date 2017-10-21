@@ -1,4 +1,5 @@
-def main():
-    while True:
+def main(num):
+    for i in range(num):
         print('hello to test branch')
-main()
+
+main(int(input()))
